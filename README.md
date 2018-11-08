@@ -1,3 +1,5 @@
+### Douban-cli is a command-line tool for finding information about books and movies.
+
 ## Install
 #### Install using npm:
 > $ npm install douban-cli
