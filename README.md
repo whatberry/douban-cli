@@ -1,4 +1,4 @@
-##Install
+## Install
 Install using npm:
 > $ npm install douban-cli
 
@@ -12,3 +12,6 @@ Tip: If your book (or movie) name contains spaces, please use quotes around it, 
 > $ douban book -n 'Harry Potter'
 
 Because I use the API provided by douban.com, I can't guarantee the stability of this package.
+
+## License
+The MIT License (MIT)
