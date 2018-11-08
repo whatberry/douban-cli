@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const colors = require('colors')
-// const inquirer = require('inquirer')
 const yargs = require('yargs')
 
 

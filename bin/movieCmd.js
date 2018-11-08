@@ -1,5 +1,6 @@
 // my-module.js
 const Dou = require('../index')
+const qrcode = require('qrcode-terminal');
 const movie = new Dou.Movie()
 
 exports.command = 'mov'
@@ -52,10 +53,10 @@ const printInfo = movie => {
 
   console.log('\n')
 
-  // qrcode.generate(`https://book.douban.com/subject/${book.id}`, {
-  //   small: true
-  // });
-  // console.log(`↑↑↑ 手机扫描二维码查看详情 ↑↑↑`.grey)
+  qrcode.generate(`https://movie.douban.com/subject/${movie.id}`, {
+    small: true
+  });
+  console.log(`↑↑↑ 手机扫描二维码查看详情 ↑↑↑`.grey)
 }
 
 exports.handler = function(argv) {
