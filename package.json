@@ -1,0 +1,33 @@
+{
+  "name": "douban-cli",
+  "version": "1.0.0",
+  "description": "1111",
+  "main": "index.js",
+  "keywords": [
+    "douban"
+  ],
+  "author": "lixzap",
+  "license": "MIT",
+  "bin": {
+    "douban": "./bin/douban.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "colors": "^1.3.2",
+    "commander": "^2.18.0",
+    "fetch": "^1.1.0",
+    "inquirer": "^6.2.0",
+    "moment": "^2.22.2",
+    "qrcode-terminal": "^0.12.0",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixzap/douban-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lixzap/douban-cli/issues"
+  },
+  "homepage": "https://github.com/lixzap/douban-cli#readme"
+}
