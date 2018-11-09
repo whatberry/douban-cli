@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 
-const colors = require('colors')
-const yargs = require('yargs')
+import {
+  command
+} from 'yargs';
 
-
-yargs
-  .command(require('./bookCmd'))
+command(require('./bookCmd'))
   .command(require('./movieCmd'))
 
   .usage('Usage: $0 <command> [options]')

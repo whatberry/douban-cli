@@ -1,4 +1,5 @@
 // my-module.js
+
 const Dou = require('../index')
 const book = new Dou.Book()
 const qrcode = require('qrcode-terminal');
