@@ -1,6 +1,6 @@
 {
   "name": "douban-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Douban-cli is a command-line tool for finding information about books and movies.",
   "main": "index.js",
   "keywords": [

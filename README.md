@@ -2,7 +2,7 @@
 
 ## Install
 #### Install using npm:
-> $ npm install douban-cli
+> $ npm install douban-cli -g
 
 #### Print a book's information:
 > $ douban book -n 小王子
